@@ -143,6 +143,8 @@ def train_one_epoch(model, optimizer, train_loader, model_func, lr_scheduler, ac
                 ckpt_save_cnt += 1
                 
     if rank == 0:
+        with open('log_loss.csv', 'a') as f:
+            f.write(f"{cur_epoch},{losses_m.avg:.4f}\n")
         pbar.close()
     return accumulated_iter
 

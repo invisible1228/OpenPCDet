@@ -1,0 +1,10 @@
+,baseline_pointpillar,pillarfocus_full,ablation_no_dynamic,ablation_no_attention
+Pedestrian_unknown_easy,0.5,0.5,0.5,0.5
+Cyclist_unknown_easy,0.5,0.5,0.5,0.5
+Pedestrian_unknown_hard,0.25,0.25,0.25,0.25
+Car_unknown_easy,0.7,0.7,0.7,0.7
+Pedestrian_unknown_moderate,0.25,0.25,0.25,0.25
+Cyclist_unknown_moderate,0.25,0.25,0.25,0.25
+Cyclist_unknown_hard,0.25,0.25,0.25,0.25
+Car_unknown_moderate,0.5,0.5,0.5,0.5
+Car_unknown_hard,0.5,0.5,0.5,0.5

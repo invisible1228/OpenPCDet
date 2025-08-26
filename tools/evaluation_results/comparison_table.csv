@@ -1,0 +1,5 @@
+,car_easy,car_moderate,car_hard
+ablation_no_attention,90.44,88.17,85.6
+baseline_pointpillar,90.75,89.22,87.87
+ablation_no_dynamic,90.68,89.21,87.75
+pillarfocus_full,90.7,88.66,86.73

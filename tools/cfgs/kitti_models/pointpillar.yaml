@@ -24,7 +24,7 @@ DATA_CONFIG:
         DISABLE_AUG_LIST: ['placeholder']
         AUG_CONFIG_LIST:
             - NAME: gt_sampling
-              USE_ROAD_PLANE: True
+              USE_ROAD_PLANE: False
               DB_INFO_PATH:
                   - kitti_dbinfos_train.pkl
               PREPARE: {
@@ -49,6 +49,9 @@ DATA_CONFIG:
 
 MODEL:
     NAME: PointPillar
+    EVAL:
+        EVAL_METRIC: kitti
+        NUM_EPOCHS_TO_EVAL: 1
 
     VFE:
         NAME: PillarVFE

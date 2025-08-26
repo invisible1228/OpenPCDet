@@ -61,7 +61,7 @@ def parse_config():
 
     if args.set_cfgs is not None:
         cfg_from_list(args.set_cfgs, cfg)
-
+    args.num_epochs_to_eval = cfg.get('NUM_EPOCHS_TO_EVAL', args.num_epochs_to_eval)
     return args, cfg
 
 
